@@ -5,7 +5,7 @@ header {
 }
 
 a {
-	color: #e72929;
+	color: #af1313
 }
 
 a:hover {
@@ -19,7 +19,17 @@ a:hover {
 	justify-content: space-between;
 }
 
-a .logo {
+a.logo {
 	font-weight: bold;
-	padding: 1rem;
+	padding: 1em;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+}
+
+nav ul li a {
+	padding: 1em;
+	display: inline-block;
 }
